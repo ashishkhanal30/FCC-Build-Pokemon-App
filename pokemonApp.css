@@ -1,0 +1,86 @@
+ 
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #d9f9d1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+ 
+.input-container {
+  text-align: center;
+}
+
+ 
+h1 {
+  color: #ff6600;
+}
+
+ 
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 2px solid #ff6600;
+  margin-bottom: 10px;
+}
+
+ 
+button {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc5500;
+}
+
+/* Style for the pokemon info section */
+#pokemon-info {
+  margin-top: 20px;
+}
+
+/* Style for the h2 */
+h2 {
+  color: #ff6600;
+}
+
+ 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+ 
+.base,
+.stats {
+  width: 48%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+#types {
+  color: #ff6600;
+  margin-top: 10px;
+}
+
+ 
+.image-section {
+  text-align: center;
+}
+
+ 
+#sprite {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
